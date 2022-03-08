@@ -1,0 +1,670 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website." />
+    <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup" />
+    <meta name="author" content="elemis" />
+    <title>Rapiboy - Franquicias</title>
+
+    <base href="./Sandbox/" />
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/plugins.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/colors/yellow.css" />
+    <link rel="preload" href="./assets/css/fonts/thicccboi.css" as="style" onload="this.rel='stylesheet'" />
+
+    <style>
+
+        @import url("./vak4pqo.css");
+
+        body {
+            font-family: 'sofia-pro-soft', sans-serif;
+        }
+
+        .bannerPrincipal {
+            background-color: #edf1fa !important;
+            background-image: url('./assets/custome/Recurso-6rapiboy-landing-franquicias 1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .backgroundblue {
+            background-color: #d8e7ff;
+        }
+
+        .celeste {
+            color: #30AED5;
+        }
+
+        .morado {
+            color: #2C2A66;
+        }
+
+        .texto {
+            color: #888888;
+            font-size: 1.125rem;
+        }
+
+        .textogris {
+            color: #888888;
+        }
+
+        .flexpic {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
+        .font-type {
+            font-family: 'sofia-pro-soft', sans-serif;
+        }
+
+        .celeste-line {
+            color: #30AED5;
+            margin-bottom: 25px;
+            margin-top: 0px;
+            width: 120px;
+            height: 1px;
+            border: solid;
+            background-color: #30AED5;
+            border-radius: 10px;
+        }
+
+        .amarillo-bg {
+            background-color: #FBDB6E;
+        }
+
+        .container-fluid {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .descuentos {
+            width : 275px 
+        }
+
+        .img100 {
+            width: 100% \9;
+        }
+        @media only screen and (max-width: 600px) {
+            .d-flex {
+                display: block !important;
+            }
+            .mobile {
+                width: 80%
+            }
+            .textmedia {
+                text-align: center;
+                max-width;
+               
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <iv class="content-wrapper">
+
+        <section class="wrapper bannerPrincipal">
+
+            <div class="container pt-10 pt-md-14 pb-8 text-center">
+
+                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                    <div class="col-lg-7">
+                        <!--<figure><img class="w-auto" src="./assets/custome/Recurso-6rapiboy-landing-franquicias 1.png" srcset="./assets/custome/Recurso-6rapiboy-landing-franquicias 1.png" alt="" /></figure>-->
+                    </div>
+
+                    <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start">
+
+                        <!-- <h2 class="display-4 mb-3 text-center">Drop Us a Line</h2>
+                        <p class="lead text-center mb-10">Reach out to us from our contact form and we will get back to you shortly.</p> -->
+                        <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
+                            <div class="messages"></div>
+                            <div class="row gx-4">
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-4">
+                                        <input id="form_franquicia" type="text" name="name" class="form-control" placeholder="Jane">
+                                        <label for="form_franquicia">Nombre de Franquicia</label>
+                                        <!-- <div class="valid-feedback"> Looks good! </div> -->
+                                        <div class="invalid-feedback"> Por favor ingrese el nombre de la franquicia. </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-4">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" >
+                                        <label for="form_name">Nombre</label>
+                                        <!-- <div class="valid-feedback"> Looks good! </div> -->
+                                        <div class="invalid-feedback"> Por favor ingrese su nombre. </div>
+                                    </div>
+                                </div>
+                                <!-- /column -->
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-4">
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" >
+                                        <label for="form_lastname">Apellido</label>
+                                        <!-- <div class="valid-feedback"> Looks good! </div> -->
+                                        <div class="invalid-feedback"> Por favor ingrese su apellido. </div>
+                                    </div>
+                                </div>
+                                <!-- /column -->
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-4">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="#" required>
+                                        <label for="form_email">Email *</label>
+                                        <!-- <div class="valid-feedback"> Looks good! </div> -->
+                                        <div class="invalid-feedback"> Por favor ingrese su e-mail. </div>
+                                    </div>
+                                </div>
+                                <!-- /column -->
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-4">
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="#" required>
+                                        <label for="form_phone">Telefono *</label>
+                                        <!-- <div class="valid-feedback"> Looks good! </div> -->
+                                        <div class="invalid-feedback"> Por favor ingrese su teléfono. </div>
+                                    </div>
+                                </div>
+                                <!-- /column -->
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-4">
+                                        <input id="form_city" type="text" name="city" class="form-control" placeholder="#" >
+                                        <label for="form_city">Ciudad</label>
+                                        <!-- <div class="valid-feedback"> Looks good! </div> -->
+                                        <div class="invalid-feedback"> Por favor ingrese la ciudad. </div>
+                                    </div>
+                                </div>
+                                <!-- /column -->
+                                <div class="col-md-6">
+                                    <div class="form-select-wrapper">
+                                        <select class="form-select" id="form-select" name="cantidadLocales" >
+                                            <option selected disabled value="">Número de locales</option>
+                                            <option value="1a4">1 a 4</option>
+                                            <option value="5a9">5 a 9</option>
+                                            <option value="10a19">10 a 19</option>
+                                            <option value="masDe20">más de 20</option>
+                                        </select>
+                                        <!-- <div class="valid-feedback"> Looks good! </div> -->
+                                        <div class="invalid-feedback"> Selecciona cantidad de locales </div>
+                                    </div>
+                                </div>
+                                <!-- /column -->
+                                <div class="col-12">
+                                    <div class="form-floating mb-4">
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" ></textarea>
+                                        <label for="form_message">Déjanos tu consulta</label>
+                                        <!-- <div class="valid-feedback"> Looks good! </div> -->
+                                        <div class="invalid-feedback"> Por favor dejanos tu consulta </div>
+                                    </div>
+                                </div>
+                                <!-- /column -->
+                                <div class="col-12 text-center">
+                                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Contacta a nuestro equipo">
+                                    <p class="text-muted"><strong>*</strong> Estos campos son requeridos. </p>
+                                </div>
+                                <!-- /column -->
+                            </div>
+                            <!-- /.row -->
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="wrapper bg-soft-primary">
+
+            <div class="container py-14 pt-md-16 pt-lg-0 pb-md-16">
+
+                <div class="row text-center">
+                    <div class="col-lg-10 mx-auto">
+                        <div class="mt-lg-n20 mt-xl-n22 position-relative">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center mt-12">
+                    <div class="col-lg-9 mx-auto">
+                        <h3 class="display-4 mb-0 text-center px-xl-10 px-xxl-15 celeste font-type" style="font-size:2rem">
+                            Disponibilidad de envíos siempre
+                        </h3>
+                        <hr class="mx-auto d-block celeste-bor mt-2 celeste-line"/>
+                        <div class="row gx-lg-8 gx-xl-12 process-wrapper text-center mt-9" data-cues="slideInUp" data-group="process" style="padding-top:30px">
+                            <div class="col-md-4">
+                                <img class="mobile" src="./assets/custome/rapiboy-landing franquicias-icono-sistema-de-refuerzos.png" style="position: relative; width: 60%; padding-bottom: 9%" />
+                                <h4 class="mb-1 celeste font-type">
+                                    Sistema de refuerzo
+                                </h4>
+                                <p class="textogris">
+                                    Repartidores de guardia por zona para que asistan a tu restaurante ante cualquier inconveniente.
+                                </p>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-4">
+                                <img class="mobile" src="./assets/custome/rapiboy-landing franquicias-icono-calificación-a-Rapiboys.png" style="position: relative; width: 70%; padding-bottom: 20% ; padding-top: 20%" />
+                                <h4 class="mb-1 celeste font-type">
+                                    Calificación a Rapiboys
+                                </h4>
+                                <p class="textogris">
+                                    Sistema de calificación validado para asegurar tu calidad de servicio.
+                                </p>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-4">
+                                <img class="mobile" src="./assets/custome/rapiboy-landing franquicias-icono-soporte-personal.png" style="position: relative; width: 55%; padding-bottom: 5%" />
+                                <h4 class="mb-1 celeste font-type">
+                                    Soporte personal
+                                </h4>
+                                <p class="textogris">
+                                    Soporte durante las operaciones y un ejecutivo de cuenta para ti.
+                                </p>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!-- /column -->
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="wrapper container-fluid" style="background-color: #fbfbfb">
+
+            <div class="container py-14 pt-md-16 pt-lg-0">
+
+                <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mt-14 align-items-center">
+
+                    <div class="col-lg-6">
+                        <h2 class="display-4 mb-3 celeste font-type">
+                            Algunos clientes con franquicias
+                        </h2>
+                        <hr class="mx-auto d-block celeste-bor mt-2 celeste-line"/>
+                        <p class="lead fs-lg mb-8 pe-xxl-2 texto">
+                            Franquiciados que confían en nuestro servicio y siguen sumando sucursales nos dan la seguridad de que brindamos una buena solución.
+                            <br />
+                            <br />
+                            Más de 2.000 clientes, ¡sólo faltas vos!
+                        </p>
+                    </div>
+                    <div class="col-md-8 col-lg-6 order-lg-2 position-relative">
+                        <img src="./assets/custome/rapiboy-landing-franquicias-motion-graphics.gif" style="position: relative; width: 100%">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container-fluid backgroundblue">
+
+            <div class="container py-14 pt-md-16 pt-lg-0 text-center">
+
+                <h2 class="display-5 mb-7 text-center morado font-type" style="padding-top: 70px; padding-bottom: 50px; font-size: 2.5rem">
+                    Descuento por cantidad de sucursales
+                </h2>
+
+                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                
+                    <div class="d-flex flex-row" style="flex-wrap: nowrap; justify-content: space-between">
+                        <a href="#">
+                            <div>
+                                <img src="./assets/custome/rapiboy-descuentosfranquicias-de1a5.png" class="mobile descuentos" />
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div>
+                                <img src="./assets/custome/rapiboy-descuentosfranquicias-de6a10.png" class="mobile descuentos" />
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div>
+                                <img src="./assets/custome/rapiboy-descuentosfranquicias-de11a15.png" class="mobile descuentos" />
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div>
+                                <img src="./assets/custome/rapiboy-descuentosfranquicias-de15enadelante.png"
+                                    class="mobile descuentos" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <p class="text-muted" style="padding-top: 80px">
+                        <strong>*</strong> Valido por 60 dias desde el ingreso de la primera franquicia. Descuento escalable para todas las franquicias por los días restantes.
+                        Ejemplo: Si superas las 5 franquicias el dia 20, tendras un descuento de 15% los 40 días restantes.<strong>**</strong>Descuento sobre la comisión.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        
+        
+
+
+
+        <section class="wrapper container-fluid" style="background-color: #fbfbfb">
+
+            <div class="container py-14 pt-md-16 pt-lg-0">
+
+                <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mt-14 align-items-center">
+
+                    <div class="col-md-8 col-lg-6 order-lg-2 position-relative">
+                        <img src="./assets/custome/rapiboy-landing-franquicias-jpg1.jpg" style="position: relative; width: 100%">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h2 class="display-4 mb-3 celeste font-type">
+                            Funcionamiento de la plataforma
+                        </h2>
+                        <hr class="mx-auto d-block celeste-bor mt-2 celeste-line"/>
+                        <p class="lead fs-lg mb-8 pe-xxl-2 texto">
+                            Brindamos repartidores fijos para tu tienda durante todo el turno que lo solicites.
+                            <br />
+                            <br />
+                            En cada turno asistirán repartidores diferentes y puedes calificar el servicio de cada uno al terminar su turno.
+                        </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="wrapper container-fluid" style="background-color: #fbfbfb">
+        
+            <div class="container py-14 pt-md-16 pt-lg-0">
+                <h2 class="text-center morado font-type" style="padding-bottom: 30px; font-size: 2.5rem">
+                    Así de fácil es conseguir repartidor
+                </h2>
+                <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mt-14 align-items-center">
+        
+                    <div class="col-md-8 col-lg-6 order-lg-2 position-relative">
+                        <!-- <img src="./assets/custome/rapiboy-landing-franquicias-jpg1.jpg" style="position: relative; width: 100%"> -->
+                        <img src="./assets/custome/rapiboy-landing-franquicias-solicitar-servicio2.jpg" />
+                    </div>
+        
+        
+                    <div class="col-lg-6">
+        
+                        <img src="./assets/custome/rapiboy-landing-franquicias-solicitar-servicio1.jpg" />
+                    </div>
+        
+        
+        
+                </div>
+                <!-- <div class="row">
+        
+                    <div class="col-lg-12">  -->
+                        <!-- <img src="./assets/custome/rapiboy-landing franquicias-flechita_nomobile.png"
+                        class="img-fluid" style="padding-left: 640px; position: absolute ; padding-top: -200px ;" /> -->
+                    <!-- </div>
+        
+        
+                </div> -->
+        
+        
+            </div>
+        </section>
+
+        
+
+        <section class="wrapper bg-soft-primary">
+
+            <div class="container py-14 pt-md-16 pt-lg-0 pb-md-16">
+
+                <div class="row text-center" data-cue="slideInUp">
+                    <div class="col-lg-10 mx-auto">
+                        <div class="mt-lg-n20 mt-xl-n22 position-relative">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center mt-12">
+                    <div class="col-lg-9 mx-auto">
+                        <h3 class="display-4 mb-0 text-center px-xl-10 px-xxl-15 celeste font-type" style="font-size:2rem">
+                            Formas de pago
+                        </h3>
+                        <hr class="mx-auto d-block celeste-bor mt-2 celeste-line"/>
+                        <div class="row gx-lg-8 gx-xl-12 process-wrapper text-center mt-9" data-cues="slideInUp" data-group="process" style="padding-top:30px">
+                            <div class="col-md-4">
+                                <img src="./assets/custome/rapiboy-landing franquicias-icono-sin-comisión-por-ventas.png" style="position: relative; width: 42%; padding-bottom: 10%" />
+                                <h4 class="mb-1 celeste font-type">
+                                    Sin comisión por ventas
+                                </h4>
+                                <p class="textogris">
+                                    Solo pagarás por cada repartidor que asiste a tu local y cumpla con la reserva. Sin comisión por venta.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/custome/rapiboy-landing franquicias-icono-se-paga-solo.png" style="position: relative; width: 50%; padding-bottom: 9%" />
+                                <h4 class="mb-1 celeste font-type">
+                                    Se paga solo
+                                </h4>
+                                <p class="textogris">
+                                    Puedes cobrar el envío a tu cliente y es como si el delivery te saliera gratis!
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/custome/rapiboy-landing franquicias-icono-medios-de-pago.png" style="position: relative; width: 30%; padding-bottom: 7%" />
+                                <h4 class="mb-1 celeste font-type">
+                                    Medios de pago
+                                </h4>
+                                <p class="textogris">
+                                    Se abona semanalmente según consumo de la semana anterior. Mercado pago, transferencia, débito o crédito.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="snippet-5" class="wrapper bg-light wrapper-border">
+
+            <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+
+                <h2 class="display-4 mb-3 text-center morado" style="padding-bottom: 5%">
+                    Franquicias como la tuya dicen...
+                </h2>
+
+                <!--<p class="lead text-center mb-6 px-md-16 px-lg-0">Customer satisfaction is our major goal. See what our customers are saying about us.</p>-->
+                <div class="position-relative">
+                    <div class="shape rounded-circle bg-soft-yellow rellax w-16 h-16" data-rellax-speed="1" style="bottom: 0.5rem; right: -1.7rem;"></div>
+                    <div class="shape bg-dot primary rellax w-16 h-16" data-rellax-speed="1" style="top: -1rem; left: -1.7rem;"></div>
+                    <div class="carousel owl-carousel gap-small" data-margin="0" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <blockquote class="icon mb-0">
+                                            <p class="body2-m">
+                                                “En Grido buscamos un servicio que nos ofrezca rapidez en los envíos, por eso confiamos en Rapiboy.”
+                                            </p>
+                                            <div class="blockquote-details">
+                                                <!--<img class="rounded-circle w-12" src="../../assets/img/avatars/te1.jpg" srcset="../../assets/img/avatars/te1@2x.jpg 2x" alt="" />-->
+                                                <div class="info">
+                                                    <h5 class="mb-1">
+                                                        Grido
+                                                    </h5>
+                                                    <!--<p class="mb-0">Financial Analyst</p>-->
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <blockquote class="icon mb-0">
+                                            <p class="body2-m">
+                                                “Para que nuestros clientes nos sigan eligiendo, nos encargamos del cuidado de la comida en todos sus pasos, hasta llegar a su casa. Rapiboy nos ayuda a que esto sea posible.”
+                                            </p>
+                                            <div class="blockquote-details">
+                                                <!--<img class="rounded-circle w-12" src="../../assets/img/avatars/te2.jpg" srcset="../../assets/img/avatars/te2@2x.jpg 2x" alt="" />-->
+                                                <div class="info">
+                                                    <h5 class="mb-1">
+                                                        Sushi POP
+                                                    </h5>
+                                                    <!--<p class="mb-0">Marketing Specialist</p>-->
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <blockquote class="icon mb-0">
+                                            <p class="body2-m">
+                                                “Vendemos helados, lógicamente trabajamos con el delivery más rápido de la ciudad.”
+                                            </p>
+                                            <div class="blockquote-details">
+                                                <!--<img class="rounded-circle w-12" src="../../assets/img/avatars/te3.jpg" srcset="../../assets/img/avatars/te3@2x.jpg 2x" alt="" />-->
+                                                <div class="info">
+                                                    <h5 class="mb-1">
+                                                        Faricci
+                                                    </h5>
+                                                    <!--<p class="mb-0">Sales Manager</p>-->
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <blockquote class="icon mb-0">
+                                            <p class="body2-m">
+                                                “Tenemos una gran cantidad de pedidos por hora, por lo que necesitábamos a una empresa que comprenda y acompañe nuestro ritmo de trabajo. En esta búsqueda encontramos en Rapiboy nuestro mejor aliado”
+                                            </p>
+                                            <div class="blockquote-details">
+                                                <!--<img class="rounded-circle w-12" src="../../assets/img/avatars/te4.jpg" srcset="../../assets/img/avatars/te4@2x.jpg 2x" alt="" />-->
+                                                <div class="info">
+                                                    <h5 class="mb-1">
+                                                        Sushi Club
+                                                    </h5>
+                                                    <!--<p class="mb-0">Financial Analyst</p>-->
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- /.card-body -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.item-inner -->
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <blockquote class="icon mb-0">
+                                            <p class="body2-m">
+                                                “Nuestras franquicias requieren de un socio que les facilite la llegada de los productos al  clientes en tiempo y forma. Por esto elegimos Rapiboy.”
+                                            </p>
+                                            <div class="blockquote-details">
+                                                <!--<img class="rounded-circle w-12" src="../../assets/img/avatars/te5.jpg" srcset="../../assets/img/avatars/te5@2x.jpg 2x" alt="" />-->
+                                                <div class="info">
+                                                    <h5 class="mb-1">
+                                                        Freddo
+                                                    </h5>
+                                                    <!--<p class="mb-0">Investment Planner</p>-->
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.owl-carousel -->
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container-fluid amarillo-bg">
+            <div class="container svg pt-3 pb-3">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6 col-xl-6">
+                        <h2 class="text-left morado" style="font-size: 1.9rem;">
+                            <b>
+                                Empezá ahora.
+                            </b>
+                        </h2>
+                        <h3 class="mt-2">
+                            Sé parte de la comunidad Rapiboy
+                        </h3>
+                        <hr class="morado mt-3">
+                        <p class="text-left mt-2 mb-2">
+                            Escala tu negocio con esta tecnología
+                        </p>
+                        <a class="btn btn-violeta btn-lg wow fadeInLeft" href="https://rapiboy.com/NuevoRestaurante" target="_blank" role="button">
+                            <span>
+                                Probá Rapiboy
+                            </span>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>
